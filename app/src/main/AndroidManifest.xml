@@ -13,6 +13,18 @@
         android:theme="@style/Theme.ETC_Layout"
         tools:targetApi="31">
         <activity
+            android:name=".Grid05_5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".GridlayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tablelayout1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RelativePracticeActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
