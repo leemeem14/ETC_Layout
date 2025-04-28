@@ -67,7 +67,6 @@ public class Grid05_5Activity extends AppCompatActivity {
             });
 
         }
-
         View.OnClickListener btnListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -85,7 +84,6 @@ public class Grid05_5Activity extends AppCompatActivity {
                 result.setText("계산 결과: "+ res);
             }
         };
-
         btnPlus.setOnClickListener(btnListener);
         btnMinus.setOnClickListener(btnListener);
         btnMulti.setOnClickListener(btnListener);
