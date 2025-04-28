@@ -69,7 +69,6 @@ public class Grid05_5Activity extends AppCompatActivity {
         }
 
         View.OnClickListener btnListener = new View.OnClickListener() {
-
             @Override
             public void onClick(View v) {
                 int res = 0;
@@ -80,11 +79,16 @@ public class Grid05_5Activity extends AppCompatActivity {
                     res = Integer.parseInt(num1) - Integer.parseInt(num2);
                 } else if (btnE == btnMulti) {
                     res = Integer.parseInt(num1) * Integer.parseInt(num2);
-                    } else if (btnE == btnDiv) {
+                } else if (btnE == btnDiv) {
                     res = Integer.parseInt(num1) / Integer.parseInt(num2);
                 }
                 result.setText("계산 결과: "+ res);
             }
         };
+
+        btnPlus.setOnClickListener(btnListener);
+        btnMinus.setOnClickListener(btnListener);
+        btnMulti.setOnClickListener(btnListener);
+        btnDiv.setOnClickListener(btnListener);
     }
 }
